@@ -1,0 +1,23 @@
+diff --git a/configure.ac b/configure.ac
+index 5fb4099..2914f39 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -27,7 +27,7 @@ AC_PROG_MAKE_SET
+ AC_OBJEXT
+ AC_EXEEXT
+ 
+-AC_CONFIG_SUBDIRS([lib src tests doc])
++AC_CONFIG_SUBDIRS([lib src tests])
+ 
+ dnl This piece of sed script replaces every line containing '@subdir@'
+ dnl by several consecutive lines, each referencing one subdir.
+@@ -43,9 +43,6 @@ p
+ g
+ s/@subdir@/tests/
+ p
+-g
+-s/@subdir@/doc/
+-p
+ d
+ }
+ '
