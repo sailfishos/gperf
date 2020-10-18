@@ -1,0 +1,6 @@
+[submodule "gperf"]
+	path = gperf
+	url = https://git.sailfishos.org/mirror/gperf.git
+[submodule "gnulib"]
+	path = gnulib
+	url = https://git.sailfishos.org/mirror/gnulib.git
